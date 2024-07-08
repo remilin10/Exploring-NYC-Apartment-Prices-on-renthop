@@ -27,6 +27,7 @@ pip install -r requirements.txt
 Ensure you have chromedriver installed and correctly set up in your PATH.
 # Data Collection
 The script uses Selenium and BeautifulSoup to scrape apartment rental data from RentHop's Manhattan listings.
+
 1.Setup:
 URL: https://www.renthop.com/apartments-for-rent/manhattan-new-york-ny
 Selenium WebDriver with ChromeDriver is used to navigate and scrape data.
