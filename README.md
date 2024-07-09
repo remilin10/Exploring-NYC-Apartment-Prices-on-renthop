@@ -3,9 +3,10 @@
 Overview
 This project aims to scrape, clean, and analyze apartment rental prices in Manhattan, New York. The data is extracted from RentHop's website, processed, and analyzed to explore the relationship between apartment characteristics and their rental prices.
 
-Table of Contents
+Table of Contents-
 Installation
 Data Collection
+Dataset Description
 Data Cleaning
 Data Exploration
 Data Pre-processing
@@ -14,6 +15,8 @@ Data Partitioning
 LASSO Analysis
 Results
 Useage
+
+
 
 # Installation
 Clone the repository:
@@ -37,6 +40,15 @@ The script navigates through multiple pages (defined by page_num) to collect dat
 
 3.Saving Data:
 Scraped data is saved into a CSV file named Apartment Info - New Data.csv.
+
+# Dataset Description
+<img width="568" alt="Screenshot 2024-07-08 at 4 17 51 PM" src="https://github.com/remilin10/Exploring-NYC-Apartment-Prices-on-renthop/assets/124099592/1556c7d5-e1e5-4f84-8ea7-fee31967b75c">
+
+
+We scraped the information shown in Figure1 for each apartment, which is (1) Location, (2)
+Price, (3) Apt Type, (4) Num of Bath, (5) Neighborhood, (6) District.
+Note that we split the district into neighborhoods and districts, to better analyze the price in each
+area.
 
 # Data Cleaning
 1.Load Data:
